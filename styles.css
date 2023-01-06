@@ -1,0 +1,42 @@
+  .all{
+    padding: 4px;
+    overflow:hidden;
+  }
+  .container{
+    display: inline-block;
+    padding: 20px;
+    width: 46%;
+  }
+  .header{
+    margin-top: -50px;
+    position: fixed;
+    width: 100%;
+    display: flex; 
+    justify-content:space-between;
+    /* background-color: #132128; */
+}
+  .header-transparent {
+    background-color: transparent;
+  }
+  .input{
+    width: auto;
+    border-radius: 6px;
+    border-color: rgb(10, 13, 15);
+    padding:6px;
+    width: 90%;
+  }
+  .btn{
+    width: auto;
+    border-radius: 5px;
+    box-shadow: #201919;
+    padding:10px;
+    width: 100px;
+  }
+  .image{
+    width:100px;
+    height: 100px;
+  }
+  table{
+    color: white;
+    text-align: left;
+  }

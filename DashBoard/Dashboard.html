@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="./DashBoard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c6d6e74636.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    .delBtn{
+        background-color: red;
+        width: 20%;
+        height: 30px;
+    }
+    .editBtn{
+        background-color: blue;
+        width: 20%;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .cont{
+        display: flex;
+        line-height: 30px;
+    }
+</style>
+<body>
+    <div class="dash-container">
+        <div class="top-items">
+            <div class="left-items">
+                <h3>ADMIN PANEL.</h3>
+                <ul>
+                    <li>DashBoard</li>
+                    <li>Users</li>
+                </ul>
+            </div>
+            <div class="right-items">
+                
+                <ul>
+                    <li>Help</li>
+                    <li>Settings</li>
+                </ul>
+                <div class="profile">
+                    <h3>L</h3>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="Second-top-items">
+            <div class="second-left-items">
+                <h2>My DashBoard</h2>
+            </div>
+            <div class="second-right-items">
+                <div class="message-blogs-list">
+                    <ol>
+                        <a href="./CheckMails.html" title="Users mails"><li><i class="fa-regular fa-message"></i></li></a> 
+                        <li><i class="fa-solid fa-list"></i></li>
+                    </ol>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Search ...................">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="add-blogs">
+                    <i class="fa-solid fa-plus"></i><h4> New Blog</h4>
+                </div>
+            </div>
+        </div>
+        <div class="blogs-container">
+            <div class="blogs">
+        
+                 <div class="card-1" id="card-1">
+                    <div class="image-part">
+                        <img src="/images/set.webp" alt="">
+                    </div>
+                    <div class="desc" id="desc">
+                        <h3>Selling Out in ocean</h3>
+                        <p>In publishing and graphic design, Lorem ipsum 
+                            commonly used to demonstrate the</p>
+                            <a href="#">See more</a> 
+                    </div>  
+                </div> 
+                <div class="card-1">
+                    <div class="image-part">
+                        <img src="/images/vikings.jpg" alt="">
+                    </div>
+                    <div class="date">
+                        <p>12/06/2022</p>
+                    </div>
+                    <div class="desc">
+                        <h3>History of Vikings in Scandinavia</h3>
+                        <p>In publishing and graphic design, Lorem ipsum 
+                            commonly used to demonstrate the</p>
+                            <a href="#">See more</a>
+                    </div>
+                </div>
+                <div class="card-1">
+                    <div class="image-part">
+                        <img src="/images/mern.png" alt="">
+                    </div>
+                    <div class="date">
+                        <p>12/06/2022</p>
+                    </div>
+                    <div class="desc">
+                        <h3>Mern stack worth Learning</h3>
+                        <p>In publishing and graphic design, Lorem ipsum 
+                            commonly used to demonstrate the</p>
+                            <a href="#">See more</a>
+                    </div> 
+                </div>  
+                <!-- Expected Output to have.....................   -->
+
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

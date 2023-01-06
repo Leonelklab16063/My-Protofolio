@@ -1,0 +1,69 @@
+.all{
+  
+    margin-right: 500px;
+  }
+
+  input[type=text] ,input[type=submit] {
+    background-color: transparent;
+   width: 100%;
+   padding: 12px 0px;
+   padding-left: 12px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   border: 1px solid;
+   border-radius: 4px;
+  }
+  textarea{
+  width: 100%;
+    background-color: transparent;
+    color: #9AA4C2;
+    padding-left: 12px;
+    border-radius: 4px;
+
+  }
+  .blog-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+    .blog-header span{
+        padding:10px;
+    }
+     .blog-header i{
+        font-size: 20px;
+    }
+  .blog-header h2, p{
+     padding-top: 20px;
+     padding-bottom: 20px;
+     
+  }
+  .contact-send{
+    width: 100%;
+    height: 1cm;
+    margin-top: 20px;
+    color: black;
+    border: 1px solid;
+    background-color: transparent;
+  }
+    .contact-send:hover{
+      background-color: black;
+      color: white;
+    }
+  .blog-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .blog-fields-part-1{
+    font-weight: 600;
+  }
+  @media  screen and (max-width: 926px) {
+   .blog-me{
+    margin: 0;
+    padding: 0;
+  }
+   input[type=text] {
+    width: 100%;
+  }
+  }
+  

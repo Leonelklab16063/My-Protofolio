@@ -1,0 +1,230 @@
+  @media screen and (max-width: 926px) {
+    .alignment-navbar{
+    margin: 0;
+    }
+    .logo-navbar{
+      position: fixed;
+    top: 0;
+    position: absolute;
+    width: 100%;
+      
+    }
+    .main-landpage{
+      position: absolute;
+      right: 0;
+      top: 0;
+      left:0 ;
+      width: 100%;
+      margin: 0;
+    }
+    .main-scroll{
+      padding-top: 200px;
+      width: 100%;
+      height: 60vh;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .hero-text .download-resume{
+      width: 100%;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+   .right-sidenav{
+    display: none;
+   }
+   .left-sidenav{
+    display: none;
+   }
+   .section-2{
+    width: 100%;
+    margin: 0;
+    padding-top: 100px;
+   }
+   .aboutMe-section{
+    position: top;
+   }
+   .aboutMe-body{
+    display: flex;
+    flex-direction: column;
+   }
+   .aboutMe-image{
+    width: 100%;
+   }
+   .aboutMe-top-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .aboutMe-info{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-bottom: 500px;
+    position: relative;
+    height: 100vh;
+   }
+   .aboutMe-info-description{
+    display: flex;
+    flex-direction: column;
+   }
+   .skills{
+    margin-top: 450px;
+    position: relative;
+    width: 100%;
+    background-color: black;
+   }
+   .languages{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: .75rem 1rem;
+  border: none;
+   }
+   .lang{
+    padding: 0px;
+    
+   }
+   /* Project ................. */
+   .my-work{
+    margin: 0;
+
+   }
+   .My{
+    margin-top: 0px;
+   }
+   .project-1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+   
+   }
+   .project-1 .project-image{
+    width: 100%;
+   }
+   .project-desc{
+    display: flex;
+    width: 100%;
+    /* background-color: red; */
+   }
+   .header{
+    width: 100%;
+    margin: 0;
+   }
+   .project-2{
+     margin-top: 300px; 
+     display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+   }
+   .project-2 .project-image{
+    width: 100%;
+   }
+   .my-work{
+    margin-top: 400px;
+   }
+   .my-work-header{
+    width: 100%;
+   }
+   /* blog container ...................... */
+   .my-work-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .blog-container{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+
+   }
+   .details-part{
+       width: 100%;
+   }
+   .sidebar{
+    width: 100%;
+    
+   }
+
+   /* Content Me ............................................... */
+
+   .contact-me{
+    margin-top: 600px;
+    position: relative;
+    width: 100%;
+   }
+   .contact-form-design{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+   }
+   .form-fields{
+    width: 100%;
+   }
+   .fields-part-2{
+    width: 100%;
+   }
+   .login-section{
+    margin-top: 400px;
+    width: 100%;
+    
+   }
+   .login-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .login-form-design{
+    width: 100%;
+   }
+   .footer{
+    padding-top: 40px;
+    position: relative;
+    top: 0;
+   }
+   .left-part-footer{
+    width: 100%;
+   }
+   .empty-footer{
+    width: 0%;
+    
+  }
+  .subscribe{
+    width: 100%;
+    
+  }
+  .left-part-footer{
+    width: 100%;
+  }
+  .terms-conditions{
+    width: 100%;
+   
+  }
+  .empty2-footer{
+    width: 0%;
+  }
+  
+  .third-footer-part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  .copyright{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.social-media-footer{
+  width: 100%;
+  
+}
+  }

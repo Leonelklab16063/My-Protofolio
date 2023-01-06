@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
+.container{
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section-1{
+    /* background-color: #c4c7d1; */
+    height: 100vh;
+    width: 60%;
+}
+.section-2{
+  /* background-color: #E5EBF5; */
+    height: 100vh;
+    width: 60%;
+}
+.inside{
+    background-color: white;
+    height: 80vh;
+    width: 90%;
+    position: absolute;
+    top: 10;
+    right: 10;
+    bottom: 10;
+    left: 10;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    opacity: 90%;
+}
+.inside-left{
+    background-color: #e0d7d977;
+    width: 50%;
+    height: 80%;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/images/login.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.footer-bars{
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+}
+.bar-1{
+  width: 30%;
+  height: 1.5px;
+  background-color: #0d09e6;
+  padding-top: 10px;
+}
+.bar-2{
+  width: 30%;
+  height: 1.5px;
+  background-color: #76a6bd49;
+  padding-top: 10px;
+}
+.bar-3{
+  width: 30%;
+  height: 1.5px;
+  background-color: #bd76a849;
+  padding-top: 10px;
+}
+.inside-right{
+    width: 50%;
+    height: 80%;
+}
+.div{
+    height: 70vh;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logo{
+  position: absolute;
+  top: 0;
+  display: flex;
+  padding: 30px;
+}
+.logo-na{
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.logo-img i, .logo-na h3{
+color: #0b1c5f;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 22px 0;
+    border-radius: 4px;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+  button {
+    background-color: #4C6FFF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+   .signupbtn {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 4px;
+  }
+  .form-div{
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #F7FAFC;
+  }
+  .social123{
+    height: 2cm;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+  }
+  .media{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .linevia{
+    padding-top: 10px;
+    padding-bottom: 10px;
+   display: flex;
+   align-items: center;
+   gap: 10px; 
+  }
+  .line{
+    width: 30%;
+    height: 1px;
+    background-color: rgb(148, 226, 236);
+  }
+  .media{
+    padding-top: 10px;
+  }
+  .media .gooble, .apple, .facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1cm;
+    width: 1cm;
+    background-color: white;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .header h2{
+    padding-bottom: 10px;
+  }
+
+  .second-2{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color: white;
+    height: 10vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+/* KLAB: 0780380509 */

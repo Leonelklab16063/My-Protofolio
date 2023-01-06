@@ -1,0 +1,794 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   
+    /* font-weight: 300; */
+    position: relative;
+    color: #9AA4C2;
+    font-size: 17px;
+   }
+   .lang i{
+    font-size: 90px;
+   }
+   .alignment-navbar{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .main-landpage{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 90vh;
+   }
+   .logo-name{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+   }
+   .logo-navbar{
+
+    z-index: 100;
+    position: fixed;
+    top: 0;
+   /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    background-color:black;
+   }
+   .menu-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   }
+   
+   .logo-navbar ul li{
+    list-style: none;
+    float: left;
+    color: aliceblue;
+    height: 1cm;
+    width: 2cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+   }
+   .logo-navbar ul li:hover{
+    background-color: #2ABBF9;
+    color: black;
+
+   }
+   .menu-login .btn {
+    height: 0.8cm;
+    width: 3.2cm;
+    display: flex;
+    
+   }
+   .menu-login .btn button{
+    height: 0.7cm;
+    width: 3cm;
+    border-radius: 4px;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+
+   }
+   .p3-main-part{
+    display: flex;
+
+   }
+   .right-sidenav{
+    width:15%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .main-scroll{
+    /* background-color: green; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    margin-left: 12%;
+    margin-right: 12%;
+   }
+   .left-sidenav{
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   }
+   .empty{
+    width: 10px;
+    height: 33vh;
+   }
+   .empty-2{
+   
+    height: 10vh;
+   }
+   .icons{
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+   }
+   .line{
+    height: 33vh;
+    width: 1px;
+    background-color: white;
+    padding-top: 100px;
+   }
+ 
+   .icons .github-icon, .instagram-icon, .twiter-icon, .linked-in-icon, .facebook{
+    width: 25%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    color: white;
+   }
+   .icons .github-icon{
+    font-size: 20px;
+   }
+   .email{
+       color: white;
+
+        writing-mode: vertical-lr;
+   }
+.empty-3{
+    width: 10px;
+    height: 33vh; 
+}
+/* hero text */
+.main-scroll h1{
+    font-size: 50px;   
+}
+.hero-text{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.hero-text .download-resume{
+   width: 20%;
+   height: 1cm;
+   background-color: transparent;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid;
+}
+.download-resume:hover{
+  background-color: #2ABBF9;
+  color: black;
+}
+
+/* Section 2 ..............> About Me*/
+
+.section-2{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.about-me{
+  width: 100%;
+  display: flex;
+}
+.text-part{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+     flex-direction: column;
+    position: relative;
+}
+.image-part{
+    width: 40%;
+    height: 40vh;
+    background-color: transparent;
+    display: flex;
+    position: relative;
+  
+}
+.image-part img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+}
+.aboutMe-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 0px;
+
+}
+.capable-part{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    gap: 50px;
+
+}
+/* Languages iam equiped with ..... */
+.skills{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.languages {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid white; 
+  }
+  .lang {
+    border: 1px solid white;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+  }
+  /* My work projects ............... */
+ 
+  .project-1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding-top: 20px;
+    align-items: center;  
+  }
+  .project-image{
+    width: 30%;
+    height: 50vh;
+  }
+  .project-desc{
+    width: 70%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    padding-left: 30px;
+  }
+  .project-image img{
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+    border: none;
+  }
+  .footer .footer-icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-2{ 
+    display: flex;
+   flex-direction: column;
+  
+    
+  }
+
+  .my-work-header{
+    padding-bottom: 50px;
+  }
+  .blog-container{
+     display: flex;
+     height: 90vh;
+
+  }
+  .details-part{
+    width: 70%;
+    height: 60vh;
+  }
+  .blog-image{
+    width: 100%;
+    height: 60vh;
+  } 
+  .blog-image img{
+    width: 100%;
+    height: 60vh;
+  }
+  .sidebar{
+    width: 29%;
+    height: 80vh;
+    
+  }
+  .blog-description{
+    padding-top: 20px;
+  }
+  .user-action{
+    padding-top: 20px;
+    gap: 10px;
+    display: flex;
+  }
+  .like, .dislike, .comment{
+    width: 1cm;
+    height: 1cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+  }
+  .blog-description >p{
+    padding-top: 10px;
+  }
+  .article-1{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .article-1 img{
+    height: 2cm;
+    width: 100%;
+    border-radius: 4px;
+
+  }
+  .article-1-description{
+    /* padding-left: 10px; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .article-1-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .recent-article{
+    padding-bottom: 10px;
+  }
+  .separator-div{
+    width: 4%;
+  }
+  .see-more{
+    display: flex;
+    padding: 10px;
+  }
+  .see-more >p{
+    padding-left: 10px;
+  }
+.contact-me{
+  /* background-color: rgb(41, 86, 122); */
+  height: 90vh;
+  width: 100%;
+}
+/* contact Me form/part */
+.contact-form-design{
+  display: flex;
+  padding-top: 10px;
+}
+.form-fields{
+ width: 50%;
+ height: 50vh;
+}
+.text-area{
+ /* background-color: white; */
+ width: 50%;
+ height: 50vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.fields-part-1{
+ display: flex;
+ gap:10px ;
+}
+.left{
+ display: flex;
+ flex-direction: column;
+ width: 50%;
+ padding-bottom: 30px;
+}
+.right-1{
+ display: flex;
+ flex-direction: column;
+ width: 50%;
+}
+input[type=text] {
+  background-color: transparent;
+ width: 100%;
+ padding: 12px 0px;
+ margin: 8px 0;
+ box-sizing: border-box;
+ border: none;
+ border-bottom: 1px solid rgb(122, 121, 121);
+}
+textarea{
+  width: 100%;
+  background-color: transparent;
+  color: #9AA4C2;
+}
+.contactMe-header h2, p{
+   padding-top: 20px;
+}
+.form-fields p{
+  padding-bottom: 50px;
+  font-size: 30px;
+}
+.contact-send{
+  width: 100%;
+  height: 1cm;
+  margin-top: 20px;
+  color: #9AA4C2;
+  border: 1px solid;
+  background-color: transparent;
+}
+.fields-part-2{
+  width: 30%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 100px;
+  
+}
+.email-info{
+  display: flex;
+
+}
+.phone-info{
+  display: flex;
+}
+.phone-info, .email-info, .address-info{
+  padding-top: 20px;
+}
+.address-info{
+  display: flex;
+  align-items: center;
+}
+.address-info p, .phonee p, .email-22 p{
+  padding-left: 40px;
+}
+
+
+/* Login form .................. */
+
+input[type=password], input[type=email] , input[type=button], input[type=text], input[type=submit] {
+  background-color: transparent;
+ width: 100%;
+ padding: 12px 0px;
+ margin: 8px 0;
+ border: 1px solid #9AA4C2;
+ padding-left: 10px;
+ color: white;
+}
+.login-btn{
+  width: 100%;
+  height: 1cm;
+  margin-top: 20px;
+  color: #9AA4C2;
+  border: 1px solid;
+  background-color: transparent;
+}
+.login-form-design{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 100px;
+  /* border: 0.1px solid #9AA4C2; */
+  
+  
+}
+.login-left-part{
+  background-color: transparent;
+  height: 40vh;
+  width: 70%;
+  
+
+}
+.login-part-2{
+
+  height: 40vh;
+  width: 50%;
+}
+.login-part-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-section{
+  width: 100%;
+  height: 80vh;
+  margin-top: 100px;
+}
+.left-part{
+  padding-top: 20px;
+  position: relative;
+}
+.left-part i{
+   position: absolute;
+   top: 50%;
+   right: 8%;
+   display: none;
+}
+.fa-xmark, #error{
+  color: red;
+}
+#error{
+  color: red;
+  text-align: center;
+}
+.fa-circle-check{
+  color: green;
+}
+.login-button{
+  width: 100%;
+  height: 2cm;
+  /* background-color: red; */
+}
+a{
+  text-decoration: none;
+}
+span b{
+  padding-right: 10px;
+}
+.left-part-log{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-part-log >i{
+  font-size: 40px;
+  padding-right: 10px;
+}
+.via-line-1{
+  width: 30%;
+  height: 1px;
+  background-color: #9AA4C2;
+}
+.by-google{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.via-or{
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Animation ................ */
+.ml10 {
+  position: relative;
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
+}
+.all-footer-content{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid;
+  padding-top: 20px;
+  margin-top: 6vh;
+}
+.empty-footer{
+  width: 50%;
+  height: 10vh;
+}
+.subscribe{
+  width: 50%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.left-part-footer{
+  width: 70%;
+}
+.sub-button{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.subscribe-btn{
+  width: 100%;
+ 
+}
+
+.second-footer-part{
+   display: flex;
+   width: 100%;
+}
+.terms-conditions{
+  padding-top: 50px;
+  width: 50%;
+  height: 10vh;
+  display: flex;
+}
+
+.empty2-footer{
+  width: 50%;
+}
+.third-footer-part{
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+}
+.t-2, .t-4, .t-6{
+  width: 2px;
+  height: 3vh;
+  background-color:#9AA4C2;
+}
+.terms-conditions{
+ display: flex;
+ gap: 10px;
+}
+.empty-footer-2{
+ width: 33%;
+}
+.copyright{
+  width: 33%;
+  display: flex;
+  align-items: center;
+}
+.social-media-footer{
+  width: 33%;
+  height: 6vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+  font-size: 20px;
+}
+.main-info{
+  width: 100%;
+  display: flex;
+  padding-top: 30px;
+  height: 20vh;
+
+}
+.capable-part
+.personal-info{
+  /* background-color: red; */
+  height: 15vh;
+  width: 50%;
+  padding-top: 100px;
+}
+.left-info{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+  background-color: aquamarine;
+  border: 1px solid;
+  justify-content: space-between;
+  text-align: left;
+}
+.right-info{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+  
+}
+
+.web i, .mobile i, .net i{
+  font-size: 50px;
+}
+
+/* New About me ............. */
+
+.aboutMe-section{
+  height: 100vh;
+  width: 100%;
+  /* padding-top: 80px; */
+}
+.aboutMe-header{
+  display: flex;
+  
+}
+.aboutMe-header h1{
+  color: white;
+}
+.aboutMe-header p{
+  color: #2ABBF9;
+}
+.aboutMe-image{
+ width: 30%;
+ border-radius: 5px;
+ border: 1px solid;
+ height: 55vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.aboutMe-info{
+width: 70%;
+/* background-color: aqua; */
+height: 70vh;
+}
+.aboutMe-image img{
+  width: 100%;
+  height: 40vh;
+  border-radius: 10px;
+}
+.aboutMe-body{
+  display: flex;
+  padding-top: 80px;
+}
+.aboutMe-info{
+padding-left: 20px;
+}
+.aboutMe-info-title h2{
+color: whitesmoke;
+}
+.aboutMe-info-body{
+padding-top: 30px;
+}
+.aboutMe-info-body p{
+  color: #9AA4C2;
+  font-size: 20px;
+}
+.aboutMe-info-description{
+  display: flex;
+  /* gap: 40px; */
+}
+.table-info-1, .table-info-2{
+  margin-top: 20px;
+}
+.aboutMe-download-cv input[type=button]{
+ height: 1cm;
+ width: 25%;
+ color: white;
+ background-color: #2ABBF9;
+ /* margin-top: 10px; */
+}
+td {
+  padding-left: 0px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: white;
+}
+td i{
+  color: #2ABBF9;
+}
+/* MEDIA QUERRIES .......... */
+
+
+/* @media only screen and (min-width: 328px) and (max-width: 926px) {
+  
+     
+} */
